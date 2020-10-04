@@ -3,6 +3,11 @@ package com.dhp.design.patterns.behavior.composite;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 组合（Composite）模式的定义：有时又叫作部分-整体模式，
+ * 它是一种将对象组合成树状的层次结构的模式，用来表示“部分-整体”的关系，
+ * 使用户对单个对象和组合对象具有一致的访问性
+ */
 public class Employee {
     private String name;
     private String title;
